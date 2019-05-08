@@ -1,0 +1,38 @@
+		body{
+		padding-top: 70px;
+		}
+		.custom_header{
+			font-size: 2em;
+		}
+
+		.custom_outline{
+			border-top: 15px solid green;
+		}
+
+		.card{
+			padding-top: 1rem;
+			border: 0px;
+			margin-top: 1.5rem !important;
+			margin-bottom: 1.5rem !important;
+		}
+
+		.custom_paragraph{
+			padding-right: 1.0rem !important;
+			padding-left: 1.0rem !important ;
+		}
+
+		.custom_border{
+			border-top: 0.5px solid #D7D6D6;
+			border-bottom: 0.5px solid #D7D6D6;
+			padding-top: 2.5rem !important;
+			padding-bottom: 1.5rem !important;
+			margin-bottom: 1.0rem !important;
+		}
+
+		.pagination{
+			justify-content: center;
+		}		
+
+		.custom-margin{
+			margin-bottom: 1.0rem;
+		}
