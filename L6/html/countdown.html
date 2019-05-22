@@ -2,9 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Countown</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fonts/css/font-awesome.min.css">
+    <style>
+        .card{
+            padding: 0px;
+        }
+
+        .circle{
+            font-size: 5em;
+            border-radius: 50%;
+            color: white;
+            font-weight: bold;
+            padding: 25px;
+        }
+
+        .green{
+            background-color: mediumspringgreen;
+            border: 5px solid lightseagreen;
+        }
+
+        .skyblue{
+            background-color: deepskyblue;
+            border: 5px solid lightskyblue;
+        }
+
+        .blue{
+            background-color: royalblue;
+            border: 5px solid dodgerblue;
+        }
+
+        ul li{
+            padding: 10px;
+        }
+
+        .horizontal_c{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding-left: 0px;
+        }
+
+        .container{
+            max-width: 600px;
+        }
+
+    </style>
 </head>
 <body>
-
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-12 card">
+                <div class="card-header d-flex justify-content-center align-items-center">
+                    <div>
+                        <p>Upcomming Event countdown timer</p>
+                    </div>
+                </div>
+                <div class="card-body d-flex justify-content-center align-items-center">
+                    <ul class="horizontal_c">
+                       <li>
+                           <span class="circle green" id="hr">14</span>
+                       </li>
+                        <li>
+                            <span class="circle skyblue" id="min">35</span>
+                        </li>
+                        <li>
+                            <span class="circle blue" id="sec">54</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer d-flex justify-content-center align-items-center">
+                    <div class="form-group">
+                        <button class="btn btn-primary">Book now</button>
+                        <button class="btn btn-success">Subscribe for more</button>
+                        <button class="btn btn-danger">14 remaining</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
